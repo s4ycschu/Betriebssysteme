@@ -1,0 +1,4 @@
+./mm/readahead.c:SYSCALL_DEFINE3(readahead, int, fd, loff_t, offset, size_t, count)
+./fs/read_write.c:SYSCALL_DEFINE3(read, unsigned int, fd, char __user *, buf, size_t, count)
+./fs/read_write.c:SYSCALL_DEFINE3(readv, unsigned long, fd, const struct iovec __user *, vec,
+./fs/stat.c:SYSCALL_DEFINE3(readlink, const char __user *, path, char __user *, buf,
